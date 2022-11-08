@@ -12,6 +12,8 @@ Swal.fire({
   icon: 'success',
   title: 'Success!',
   text: 'You have submited the form!',
+  background: '#F0F0F0',
+  padding: '3em',
   showConfirmButton: false,
   timer: 1300
 }).then((result) => {

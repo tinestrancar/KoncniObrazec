@@ -4,6 +4,10 @@
     font-family:"Source Sans Pro";
 }
 
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+    background: rgba(146, 146, 146, 0.37)!important;
+}
+
 .sls{
     margin: auto;
     width: 650px;
@@ -20,10 +24,6 @@
     overflow:hidden;
 }
 body {
-    background-image: url("img/background4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
     margin-top: 40px;
     overflow:auto;
 }
@@ -97,4 +97,8 @@ input[type=checkbox]{
 
 html{
     scroll-behavior: smooth;
+    background-image: url("img/background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
 }
