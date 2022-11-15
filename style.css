@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    border-radius: 6px 6px;
+    font-family:"Source Sans Pro";
+}
+
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+    background: rgba(146, 146, 146, 0.37)!important;
+}
+
+.sls{
+    margin: auto;
+    width: 650px;
+    position: relative;
+    border-radius: 30px;
+    height: 840px;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px #303030cb;
+    border: 3px solid rgba(78, 78, 78, 0.884);
+    background-color: rgba(146, 146, 146, 0.92);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    overflow:hidden;
+}
+body {
+    margin-top: 40px;
+    overflow:auto;
+}
+
+#sponsorpic{
+    float: right;
+    height: 120px;
+    width: 250px;
+}
+ 
+#mlogo {
+    height: 150px;
+    width: 150px;
+    float: right;
+}
+
+#Stance1{
+    height:156px;
+    margin-left: 404px;
+    position: absolute;
+    padding-top: 4px;
+    width:83px;
+    display: none;
+    float: right;
+    margin-right: 65px;
+}
+
+#Stance2{
+    height:200px;
+    position: absolute;
+    margin-left: 400px;
+    padding-top: 4px;
+    width:83px;
+    float: right;
+    display: none;
+    margin-right: 65px;
+}
+
+input::placeholder{
+    transition: 0.5s ease-in-out;
+}
+input:focus::placeholder{
+    color:transparent;
+
+}
+
+input[type=tel]{
+    width: 35px;
+    outline: none;
+    height: 18px;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+input[type=email]{
+    height: 18px;
+    text-align: center;
+    outline: none;
+    width: 180px;
+    margin-left: 18px;
+    margin-top: 6px;  
+
+}
+
+input[type=radio]{
+    accent-color: rgb(34, 34, 34);
+
+}
+
+input[type=checkbox]{
+    accent-color: rgb(34, 34, 34);
+}
+
+#submitdiv{
+    text-align: center;
+    margin: auto;
+    position:absolute;
+    left: 43%;
+}
+
+
+input[type=text] {
+    text-transform: capitalize;
+    outline: none;
+}
+
+select{
+    outline: none;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    background-image: url("img/background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
